@@ -43,7 +43,7 @@ h2{
     width: 100%;
     max-width: 400px;
     background: #fff;
-    padding: 30px;
+    padding: 14px;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
 }
@@ -93,45 +93,4 @@ h2{
 .forma_box a {
     color: #4ED0FF;
     text-decoration: none;
-}
-/*Estilo Minecraft para o input de senha*/
-#password{
-    font-family: 'Press Start 2P', monospace;/*Fonte pixelada*/
-    font-size: 10px;
-    -webkit-text-security: square; /* Quadradinhos no Chrome/Safari */
-    color: transparent; /* Esconde o texto real */
-    text-shadow: 0 0 0 #000; /* Mantém quadrados visíveis */
-    letter-spacing: 1.5px; /* Espaço entre os blocos */
-    padding-right: 40px; /* Espaço para ícone do item */
-    position: relative;
-}
-
-/* Ícone do item dentro do input */
-#password-container {
-    position: relative;
-}
-
-#password-container::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    right: 10px;
-    transform: translateY(-50%);
-    width: 24px;
-    height: 24px;
-    background-image: url('/img/item_minecraft.png'); /* Coloque seu PNG aqui */
-    background-size: cover;
-    pointer-events: none;
-}
-
-/* Apenas o placeholder e texto do input email estilo Minecraft */
-#email {
-    font-family: Arial, Helvetica, sans-serif; /* fonte normal para quando digita */
-    font-size: 12px; /* mesmo tamanho do password */
-    letter-spacing: 1.5px; /* espaçamento parecido com os blocos */
-}
-#email::placeholder {
-    font-family: 'Press Start 2P', monospace; /* fonte pixelada */
-    font-size: 10px; /* placeholder acompanha o tamanho do texto */
-    letter-spacing: 1.5px;
-}
+}   
